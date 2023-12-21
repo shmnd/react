@@ -1,0 +1,47 @@
+ ///////////////////////////////////        WORKS        /////////////////////////////////
+
+
+        1. Design To-Do, Netflix
+
+        2. Extra credits:
+                ● Input focus with useRef in To-Do
+                ● Complete UI of OLX application
+                ● Learn Context API
+
+
+
+//////////////////////////////           React.js Topics            /////////////////////////
+
+
+        1. DOM concepts in Javascript
+        2. Difference between actual DOM and virtual DOM
+        3. Difference between single Page and multi-page application
+        4. Concept of reusability
+        5. Learn about es6 versions syntaxes
+        a. Arrow functions
+        b. Map
+        c. Destructuring
+        d. Filter
+        e. Reduce
+        f. Import/Export
+        6. Difference between JSX and HTML
+        7. Learn about components
+        a. Class
+        b. Functional
+        8. Dynamic rendering
+        9. Lifecycle methods
+        10. Learn the concept of hooks
+        a. useState
+        b. useEffect
+        c. useRef
+        d. useHistory
+        e. useCallback
+        f. useMemo
+        11. Learn the concept of event handlers
+        a. onClick
+        b. onChange
+        12. Learn the concept of React router
+        13. Learn the different types of state management concepts
+        a. Props (normal method )
+        b. Context API
+        c. Redux

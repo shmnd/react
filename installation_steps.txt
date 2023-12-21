@@ -1,0 +1,47 @@
+first step 
+
+    INSTALL nodejs
+
+To check version
+        
+    node -v 
+
+To create a project and install  libery 
+
+    To install npm 
+
+        npm install -g npm@10.2.5
+
+
+        npx create-react-app sample-(name fo project )
+
+                o/p:Success! Created sample
+
+
+
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+    cd sample
+    npm start
+
+
+AFTER TYPE ENTER TO THE FOLDER sample AND START npm
+
+    cd sample
+    npm start
+
