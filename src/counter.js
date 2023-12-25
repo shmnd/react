@@ -1,15 +1,15 @@
 import {useState} from 'react'
 import './App.css'
-import { useState } from 'react'
 
 function Counter(){
+    const [count,Setcount]=useState(0)
 
-    let count=0
+    // let count=0
 
     // Arrow function
         const addCount=()=>{
-                count=count+1 
-                console.log(count);
+                // count=count+1 
+                Setcount(count+1)
             }
 
     // normal function
