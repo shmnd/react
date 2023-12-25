@@ -1,3 +1,5 @@
+// node cpy.js   (paste this in terminal to get output)
+
 // Normal function
 
         // function message(){
@@ -48,3 +50,10 @@
 
         // //  negative(10);
         // negative(-10);
+
+
+// Arry destructuring
+        
+        const arr=[1,2,3,4]
+        const [j,k,l,m]=arr
+        console.log(j,k,l,m)
