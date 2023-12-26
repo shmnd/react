@@ -9,9 +9,11 @@ function App(){
     }
 
     return(
-        <div className="mac">
+        <div>
             <button onClick={addCount}>Add</button>
-            <Counter2 counter={count} />
+            <Counter2 title='1st count' counter={count} />
+            <Counter2 title='2nd count' counter={count} />
+
         </div>
     );
 }
