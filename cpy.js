@@ -52,6 +52,8 @@
         // negative(-10);
 
 
+                                // if we don't give cruly bracket of arrow function it return all the data's inside the bracket and don't need to use return statement
+
 // Arry destructuring
         
         // const arr=[1,2,3,4]
