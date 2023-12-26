@@ -8,11 +8,17 @@ function App(){
         setCount(count+1)   
     }
 
+
+    let obj={
+        title:'1st counter :',
+        counter:count //we only using name because the name is same that's why we not assign a value
+    }
+
     return(
         <div>
             <button onClick={addCount}>Add</button>
-            <Counter2 title='1st count' counter={count} />
-            <Counter2 title='2nd count' counter={count} />
+            <Counter2 {...obj} />      {/* spread opretor */}
+            {/* <Counter2 title='2nd count' counter={count} /> */}
 
         </div>
     );

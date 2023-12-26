@@ -2,8 +2,8 @@ import React from 'react'
 import './App.css'
 
 
-function Counter2(props) {
-  const {title,counter}=props
+function Counter2({title,counter}) {   /* we can use spread opretor in this way too */
+  // const {title,counter}=props  {/* we can use spread opretor in this way also */}
   return (
     <div>
         {/* <h1>Counter:{props.counter}</h1> */}
