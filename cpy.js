@@ -72,9 +72,42 @@
 
 
         // with spread operator
-                num=[1,2,3,4,5]
-                let maxima= Math.max(...num) //used 3 dots it's spread operator
-                console.log(maxima)
+                // num=[1,2,3,4,5]
+                // let maxima= Math.max(...num) //used 3 dots it's spread operator
+                // console.log(maxima)
                 //outupt:
                 // PS C:\Users\user\Desktop\react project> node cpy.js
-5
+                // 5
+
+
+                // let name='shamnad'
+                // let username=[...name];
+                // console.log(username)
+
+
+
+                // output:
+                        
+                //         [
+                //         's', 'h', 'a',
+                //         'm', 'n', 'a',
+                //         'd'
+                //         ]
+
+
+                // let fruits=['appple','orange','grape','water melon']
+
+                // let vegies=['carrot','potatos','ginger','egg plant']
+
+                // let food =[...fruits,...vegies,'egg','milk']
+
+                // console.log(food)
+
+                // output:
+                //         [
+                //         'appple', 'orange',
+                //         'grape',  'water melon',
+                //         'carrot', 'potatos',
+                //         'ginger', 'egg plant',
+                //         'egg',    'milk'
+                //         ]
