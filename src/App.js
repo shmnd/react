@@ -1,34 +1,4 @@
 import {useState} from 'react'
-import Counter2 from './Counter2'
-
-function App(){
-  const [count,setCount]=useState(0)
-
-    const addCount  =()=> {
-        setCount(count+1)   
-    }
-
-
-    let obj={
-        title:'1st counter :',
-        counter:count ,//we only using name because the name is same that's why we not assign a value
-        place:'manjeri'
-
-    }
-
-    return(
-        <div>
-            <button onClick={addCount}>Add</button>
-            <Counter2 {...obj} />      {/* spread opretor */}
-            {/* <Counter2 title='2nd count' counter={count} /> */}
-
-        </div>
-    );
-}
-
-export default App
-
-
 
 
 // import  Header from './components/Header';
@@ -85,7 +55,65 @@ export default App
 
 
 
+// import Counter2 from './Counter2'
+
+// function App(){
+//   const [count,setCount]=useState(0)
+
+//     const addCount  =()=> {
+//         setCount(count+1)   
+//     }
+
+
+//     let obj={
+//         title:'1st counter :',
+//         counter:count ,//we only using name because the name is same that's why we not assign a value
+//         place:'manjeri'
+
+//     }
+
+//     return(
+//         <div>
+//             <button onClick={addCount}>Add</button>
+//             <Counter2 {...obj} />      {/* spread opretor */}
+//             {/* <Counter2 title='2nd count' counter={count} /> */}
+
+//         </div>
+//     );
+// }
+
+// export default App
 
 
 
 
+import Employee from './Employee'
+
+function App(){
+    const [count,setCount]=useState(0)
+  
+      const addCount  =()=> {
+          setCount(count+1)   
+      }
+  
+      let emp=[{name:'shamnad',age:23},
+      {name:'elon musk',age:44},
+      {name:'steve jobs',age:85}
+      ]
+  
+      return(
+          <div>
+              <button onClick={addCount}>Add</button>
+            {
+                emp.map((obj)=>{
+                    return(
+                        <Employee name={obj.name} age={obj.age} />
+                    )
+                })
+            }
+          </div>
+      );
+  }
+  
+  export default App
+  
