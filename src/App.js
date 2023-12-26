@@ -1,4 +1,4 @@
-import {useState} from 'react'
+// 
 
 
 // import  Header from './components/Header';
@@ -54,7 +54,7 @@ import {useState} from 'react'
 // }
 
 
-
+// import {useState} from 'react'
 // import Counter2 from './Counter2'
 
 // function App(){
@@ -90,28 +90,27 @@ import {useState} from 'react'
 import Employee from './Employee'
 
 function App(){
-    const [count,setCount]=useState(0)
-  
-      const addCount  =()=> {
-          setCount(count+1)   
-      }
-  
-      let emp=[{name:'shamnad',age:23},
-      {name:'elon musk',age:44},
-      {name:'steve jobs',age:85}
-      ]
+
+    let emp=[
+                {name:'shamnad',age:23},
+                {name:'elon musk',age:44},
+                {name:'steve jobs',age:85}
+            ]
   
       return(
+
           <div>
-              <button onClick={addCount}>Add</button>
             {
-                emp.map((obj)=>{
-                    return(
-                        <Employee name={obj.name} age={obj.age} />
+                emp.map((obj,index)=>
+                // if we don't give cruly bracket of arrow function it return all the data's inside  and don't need to use return statement and if there multiple data it should be inside the bracket () a
+
+                    (
+                        <Employee key={index} {...obj}  />
                     )
-                })
+                )
             }
           </div>
+
       );
   }
   
