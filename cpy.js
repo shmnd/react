@@ -54,6 +54,27 @@
 
 // Arry destructuring
         
-        const arr=[1,2,3,4]
-        const [j,k,l,m]=arr
-        console.log(j,k,l,m)
+        // const arr=[1,2,3,4]
+        // const [j,k,l,m]=arr
+        // console.log(j,k,l,m)
+
+
+// SPREAD OPERATOR 
+        // without using spread operator
+                // let num=[1,2,3,4,5]
+                // let maxima= Math.max(num) //without using spread operator
+                // console.log(maxima)
+                // output=
+                // PS C:\Users\user\Desktop\react project> node cpy.js
+                // NaN
+
+
+
+
+        // with spread operator
+                num=[1,2,3,4,5]
+                let maxima= Math.max(...num) //used 3 dots it's spread operator
+                console.log(maxima)
+                //outupt:
+                // PS C:\Users\user\Desktop\react project> node cpy.js
+5
