@@ -1,6 +1,3 @@
-// 
-
-
 // import  Header from './components/Header';
 
 // import Banner from './components/Header';
@@ -87,32 +84,51 @@
 
 
 
-import Employee from './Employee'
+// import Employee from './Employee'
 
-function App(){
+// function App(){
 
-    let emp=[
-                {name:'shamnad',age:23},
-                {name:'elon musk',age:44},
-                {name:'steve jobs',age:85}
-            ]
+//     let emp=[
+//                 {name:'shamnad',age:23},
+//                 {name:'elon musk',age:44},
+//                 {name:'steve jobs',age:85}
+//             ]
   
-      return(
+//       return(
 
-          <div>
-            {
-                emp.map((obj,index)=>
-                // if we don't give cruly bracket of arrow function it return all the data's inside  and don't need to use return statement and if there multiple data it should be inside the bracket () a
+//           <div>
+//             {
+//                 emp.map((obj,index)=>
+//                 // if we don't give cruly bracket of arrow function it return all the data's inside  and don't need to use return statement and if there multiple data it should be inside the bracket () a
 
-                    (
-                        <Employee key={index} {...obj}  />
-                    )
-                )
-            }
-          </div>
+//                     (
+//                         <Employee key={index} {...obj}  />
+//                     )
+//                 )
+//             }
+//           </div>
 
-      );
-  }
+//       );
+//   }
   
-  export default App
+//   export default App
   
+import React from 'react'
+import Useeffect from './Useeffect'
+import { useState } from 'react'
+
+function App() {
+  const [state,setState]=useState(false)
+  return (
+    <div>
+        <h1 onClick={()=>setState(!state)}> Show/Hide </h1>
+
+        {/* {state ? <Useeffect/> : null}  using terinory operator its working like if else */}
+
+        {state && <Useeffect/>}   {/* and operator (its only shows when 2 states are true its working like 2 condtion are true output shows in here <useeffect> is always True and we need to check state)  */}
+
+    </div>
+  );
+}
+
+export default App
