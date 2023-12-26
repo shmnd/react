@@ -1,28 +1,24 @@
-import Counter2 from './counter2'
 import {useState} from 'react'
-import './App.css'  
+import Counter2 from './Counter2'
 
 function App(){
-  const [count,Setcount]=useState(0)
+  const [count,setCount]=useState(0)
 
-      const addCount=()=>{
-              Setcount(count+1)   
-          }
+    const addCount  =()=> {
+        setCount(count+1)   
+    }
 
-
-  return(
-      <div className="mac">
-          <button onClick={addCount}>Add</button>
-          <Counter2 count={count} />
-      </div>
-  );
+    return(
+        <div className="mac">
+            <button onClick={addCount}>Add</button>
+            <Counter2 counter={count} />
+        </div>
+    );
 }
 
 export default App
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
 
 
 // import  Header from './components/Header';
