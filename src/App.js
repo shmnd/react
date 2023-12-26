@@ -11,7 +11,9 @@ function App(){
 
     let obj={
         title:'1st counter :',
-        counter:count //we only using name because the name is same that's why we not assign a value
+        counter:count ,//we only using name because the name is same that's why we not assign a value
+        place:'manjeri'
+
     }
 
     return(
