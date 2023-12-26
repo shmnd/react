@@ -115,9 +115,17 @@
   
 import React from 'react'
 import Useeffect from './Useeffect'
-import { useState } from 'react'
+import {useEffect,useState } from 'react'
 
 function App() {
+//   useEffect(()=>{
+//     console.log('mounting...');
+//     return()=>{
+//         console.log('unmonting...')
+//     }
+//   })
+
+  
   const [state,setState]=useState(false)
   return (
     <div>
