@@ -45,3 +45,32 @@ AFTER TYPE ENTER TO THE FOLDER sample AND START npm
     cd sample
     npm start
 
+////////////////// FILES TO DELETE ////////////////////////////
+
+SETUP TEST.JS
+REPORT WEB VITAL.JS
+LOGO
+INDEX.CSS
+APP.TEST.JS
+
+
+////////////////////////MODIFY FILES//////////////////
+APP.JS
+APP.CS
+
+
+/////////////////////////////////////////// To open vs code in terminal /////////////////////////////////////////
+
+PS C:\Users\user> cd .\Desktop\
+PS C:\Users\user\Desktop> cd .\dumb\
+PS C:\Users\user\Desktop\dumb> mkdir now  (create new folder named now)
+
+    Directory: C:\Users\user\Desktop\dumb
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        27-12-2023     01:05                now
+
+
+PS C:\Users\user\Desktop\dumb> code .
+PS C:\Users\user\Desktop\dumb>
