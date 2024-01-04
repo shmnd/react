@@ -1,3 +1,4 @@
 rfce (react functional component export)
 
         It is used to create a component in the name of counter,There is a div to return and things to import and export 
+        
